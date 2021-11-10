@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap');
+
+
+:root{
+    --body-color-light : #f5f7f9;
+    --nav-button-color : #07648d;
+    --dark-blue: #003249;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgba(3, 53, 94);
+    width:100vw;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('4873152.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+/* *--------------------- Login section --------------------- */
+.login-section{
+    position:relative;
+    width:100%;
+    height:100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+form{
+    position: inherit;
+    display: block;
+    background: #fff;
+    padding: 20px 40px 40px 40px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0,0.25);;
+    width: 448px;
+}
+form .logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content:start;
+    width:100%;
+    margin-top: 20px;
+}
+form .logo img{
+    height: 37px;
+}
+form .login-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    margin-top: 15px;
+}
+
+#register-section{
+    display: none;
+}
+
+form .forgot-password{
+    display: none;
+}
+ form .login-inputs .inputs{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 8px;
+}
+form .login-inputs .inputs h2{
+    color: #17252a;
+    font-weight: 500;
+    font-size: 22px;
+}
+form .login-inputs .inputs label{
+    color: #596373;
+}
+form .login-inputs .inputs input[type="email"],
+form .login-inputs .inputs input[type="text"]
+{
+    width:95%;
+    padding: 5px 0px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid #9BA6B1;
+    font-size: 16px;
+    color: #17252a;
+    font-weight: 500;
+    line-height: 24px;
+    outline: none;
+}
+
+form .login-inputs .login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    width:95%;
+    background-color: rgb(0, 127, 173);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+}
+form .login-inputs .login-btn .login-btn-btn{
+    text-decoration: none;
+    padding: 8px 14px;
+}
+form .login-inputs .login-btn:hover{
+    background-color: rgba(0, 127, 173,0.85);
+}
+form .forgot-pass{
+    margin: 25px;
+}
+form .forgot-pass a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .15px;
+    text-decoration-line: underline;
+    color: #007fad;
+    border: 2px transparent dashed;
+}
+form .forgot-pass div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .forgot-pass div .hint{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 5px;
+    width: 100%;
+}
+form .forgot-pass div a{
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.reset-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.reset-subtitle{
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.hint-login{
+    margin-top: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+@media (max-width:468px){
+    form{
+        margin: 20px 10px 0;
+        padding: 0px 10px;
+    }
+    form .login-inputs{
+        margin-top: 20px;
+    }
+    form .logo img{
+        height: 30px;
+        margin-top: 20px;
+    }
+    .hint-login{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (orientation:landscape) and (max-width:991px){
+    body{
+        overflow: scroll;
+    }
+    .footer-section{
+        display: none;
+    }
+}

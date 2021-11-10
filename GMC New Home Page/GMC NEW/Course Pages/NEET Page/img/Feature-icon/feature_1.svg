@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="Group_244" data-name="Group 244" transform="translate(-960 -2910)">
+    <g id="I-session-icon" transform="translate(503 2316)">
+      <circle id="Ellipse_61" data-name="Ellipse 61" cx="23" cy="23" r="23" transform="translate(457 594)" fill="#d82533"/>
+      <g id="Interactive-session" transform="translate(386 588.761)">
+        <path id="Icon_ionic-md-person" data-name="Icon ionic-md-person" d="M8.008,8.008A1.754,1.754,0,1,0,6.254,6.254,1.759,1.759,0,0,0,8.008,8.008Zm0,.877c-1.162,0-3.508.592-3.508,1.754v.877h7.016v-.877C11.516,9.477,9.17,8.885,8.008,8.885Z" transform="translate(85.632 18.456)" fill="none" stroke="#fff" stroke-width="1"/>
+        <path id="Icon_material-laptop-chromebook" data-name="Icon material-laptop-chromebook" d="M21.289,19.015V4.5H1.935V19.015H0v1.935H23.225V19.015Zm-7.742,0H9.677v-.968h3.871Zm5.806-2.9H3.871V6.435H19.354Z" transform="translate(81 13.25)" fill="#d82533" stroke="#fff" stroke-width="1"/>
+        <path id="Icon_open-person" data-name="Icon open-person" d="M6.966,0C5.05,0,3.483,1.95,3.483,4.354S5.05,8.707,6.966,8.707s3.483-1.95,3.483-4.354S8.881,0,6.966,0ZM3.834,8.529C2.092,9.3,0,10.309,0,12.19v1.741H13.931V12.19c0-1.881-1.92-2.887-3.662-3.661s-1.7.054-3.3.054S5.575,7.754,3.834,8.529Z" transform="translate(97.069 24.796)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
